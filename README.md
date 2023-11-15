@@ -4,10 +4,10 @@ Get Clinet Information
 IP_ADDRESS<br>
 HTTP_CLIENT_IP<br>
 REMOTE_PORT<br>
-HTTP_USER_AGENT
-HTTP_SEC_CH_UA_PLATFORM
-WINDIR
-REQUEST_URI
-USER_AGENT
-Location lat long
+HTTP_USER_AGENT<br>
+HTTP_SEC_CH_UA_PLATFORM<br>
+WINDIR<br>
+REQUEST_URI<br>
+USER_AGENT<br>
+Location lat long<br>
 ---------------------------
