@@ -1,7 +1,7 @@
 # Clinet-Information
 Get Clinet Information
----------------------------
-IP_ADDRESS
+\n---------------------------
+\nIP_ADDRESS
 HTTP_CLIENT_IP
 REMOTE_PORT
 HTTP_USER_AGENT
