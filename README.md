@@ -1,6 +1,6 @@
 # Clinet-Information
 Get Clinet Information
-\n---------------------------
+<br>---------------------------
 \nIP_ADDRESS
 HTTP_CLIENT_IP
 REMOTE_PORT
