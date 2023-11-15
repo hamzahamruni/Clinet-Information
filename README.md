@@ -1,9 +1,9 @@
 # Clinet-Information
 Get Clinet Information
-<br>---------------------------
-\nIP_ADDRESS
-HTTP_CLIENT_IP
-REMOTE_PORT
+<br>---------------------------<br>
+IP_ADDRESS<br>
+HTTP_CLIENT_IP<br>
+REMOTE_PORT<br>
 HTTP_USER_AGENT
 HTTP_SEC_CH_UA_PLATFORM
 WINDIR
